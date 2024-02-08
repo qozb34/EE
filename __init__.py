@@ -1,7 +1,4 @@
-from .decorators import check_owner
+from sourceklanr import BOTLOG, BOTLOG_CHATID, iqthon
 
-CMD_INFO = {}
-PLG_INFO = {}
-GRP_INFO = {}
-BOT_INFO = []
-LOADED_CMDS = {}
+from ..Config import Config
+from ..core.inlinebot import *
